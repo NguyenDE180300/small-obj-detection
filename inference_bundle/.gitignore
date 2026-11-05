@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+checkpoints/
+data/
+datasets/
+engines/
+benchmarks/
+*.pt
+*.onnx
+*.engine
+*.tar.gz
