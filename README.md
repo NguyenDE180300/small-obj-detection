@@ -1,5 +1,8 @@
 # LEVIR-Ship: YOLOv8-P2 baseline vs Adaptive-SRM variants
 
+The Jetson Orin FastAPI inference service and workstation deployment script are
+documented in [`inference_bundle/jetson_api/README.md`](inference_bundle/jetson_api/README.md).
+
 Nền thực nghiệm dùng YOLOv8n-P2 với YAML `yolov8n_p2_levir_baseline.yaml`,
 `Detect` chuẩn và pretrained transfer qua `model.load(..., smart_transfer=True)`:
 3,352,396 tham số và 358 tensor transfer. Toàn bộ ASRM case chỉ thêm module/layer
